@@ -14,7 +14,7 @@ function generateGrid() {
       cell.className = "cell";
       cell.textContent = (row * 10 + col + 1).toString();
       cell.addEventListener("click", (event) => {
-        cell.style.backgroundColor = "blue";
+        cell.style.backgroundColor = "cyan";
         console.log("Hai cliccato sulla cella " + cell.textContent);
       });
       gridContainer.appendChild(cell);
