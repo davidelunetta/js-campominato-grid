@@ -3,13 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    /* background-color: gray; */
-}
 
 .my-grid {
-    margin-top: 50px;
-    margin-left: 400px;
+    justify-content: center;
+    align-items: center;
     display: grid;
     grid-template-columns: repeat(10, 40px);
     grid-template-rows: repeat(10, 40px);
